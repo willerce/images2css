@@ -19,19 +19,16 @@ fs.writeFile(path.join(process.cwd(), "kalok.css"), kalok);
 
 **folderPath**
 
-String 类型，需要遍历的图片目录，只遍历一层目录，不会遍历深层子目录
-默认值： process.cwd()
+String 类型，需要遍历的图片目录，只遍历一层目录，不会遍历深层子目录，默认值： process.cwd()
 
 **imageRelativePath**
 
-String 类型，background-image 的 url 相对路径
-默认值： "./"
+String 类型，background-image 的 url 相对路径，默认值： "./"
 
 
 **backgroundSize**
 
-Boolean 类型，CSS 中是否需要带上 background-size 属性
-默认值： false
+Boolean 类型，CSS 中是否需要带上 background-size 属性，默认值： false
 
 ## 联系我
 
