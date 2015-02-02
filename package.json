@@ -1,0 +1,22 @@
+{
+  "name": "slice2css",
+  "version": "0.0.1",
+  "description": "generate css from the existing sprite images",
+  "keywords": [
+    ""
+  ],
+  "author": {
+    "name": "Willerce Zenn",
+    "email": "willerce@gmail.com",
+    "url": "https://github.com/willerce"
+  },
+  "repository": "willerce/slice2css",
+  "scripts": {
+    "test": ""
+  },
+  "dependencies": {
+    "image-size": "^0.3.5",
+    "node-css": "0.0.2"
+  },
+  "license": "MIT"
+}
