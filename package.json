@@ -1,6 +1,6 @@
 {
-  "name": "slice2css",
-  "version": "0.0.1",
+  "name": "images2css",
+  "version": "0.0.2",
   "description": "generate css from the existing sprite images",
   "keywords": [
     ""
@@ -10,7 +10,7 @@
     "email": "willerce@gmail.com",
     "url": "https://github.com/willerce"
   },
-  "repository": "willerce/slice2css",
+  "repository": "willerce/images2css",
   "scripts": {
     "test": ""
   },
