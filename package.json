@@ -1,6 +1,6 @@
 {
   "name": "images2css",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "generate css from the existing sprite images",
   "keywords": [
     ""
