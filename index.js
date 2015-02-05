@@ -10,7 +10,7 @@ function images2css(options) {
     options = {
         folderPath: options.folderPath || process.cwd(),
         imageRelativePath: options.imageRelativePath || "./",
-        backgrounSize: options.backgrounSize || false
+        backgroundSize: options.backgroundSize || false
     };
 
     //遍历目录下的 jpg, png
@@ -42,7 +42,7 @@ function images2css(options) {
                         var dimensions = sizeOf(imagePath);
                         var result = "";
 
-                        if (options.backgrounSize) {
+                        if (options.backgroundSize) {
                             result = css("." + file + "__" + path.basename(imagePath, '.' + dimensions.type), {
                                 width: dimensions.width + "px",
                                 height: dimensions.height + "px",

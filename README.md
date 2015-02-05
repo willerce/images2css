@@ -8,7 +8,7 @@ generate css from the existing sprite images
 var kalok = images2css({
     folderPath: ""
     imageRelativePath: "../",
-    backgrounSize: true
+    backgroundSize: true
 });
 
 fs.writeFile(path.join(process.cwd(), "kalok.css"), kalok);
